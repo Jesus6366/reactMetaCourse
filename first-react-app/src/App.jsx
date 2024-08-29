@@ -7,6 +7,8 @@ import Die from "./Die";
 import ListPicker from "./ListPicker";
 import DoubleDice from "./DoubleDice";
 
+import ColorList from "./ColorList";
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
       <DoubleDice />
       <DoubleDice />
 
+      <ColorList colors={["red", "pink", "purple", "teal"]} />
       {/* <Greeter person="Sarai" from="Jesus" />
       <Greeter person="Natalia" from="Jesus" />
       <Greeter person="Natalia" from="Sarai" /> */}
