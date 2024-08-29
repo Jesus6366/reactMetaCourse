@@ -8,15 +8,19 @@ import ListPicker from "./ListPicker";
 import DoubleDice from "./DoubleDice";
 
 import ColorList from "./ColorList";
+import Slots from "./Slots";
 
 function App() {
   return (
     <>
-      <DoubleDice />
+      <Slots val1="🍒" val2="🍒" val3="🍒" />
+      <Slots val1="🍒" val2="🍌" val3="🍒" />
+      {/* <DoubleDice />
       <DoubleDice />
       <DoubleDice />
 
       <ColorList colors={["red", "pink", "purple", "teal"]} />
+      <ColorList colors={["orangeRed", "olive", "slategrey"]} /> */}
       {/* <Greeter person="Sarai" from="Jesus" />
       <Greeter person="Natalia" from="Jesus" />
       <Greeter person="Natalia" from="Sarai" /> */}
