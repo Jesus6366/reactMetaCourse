@@ -5,7 +5,7 @@ const Counter = () => {
   console.log(count);
 
   const handleNumber = () => {
-    setCount(count + 1);
+    setCount((count) => count + 1);
   };
 
   return (

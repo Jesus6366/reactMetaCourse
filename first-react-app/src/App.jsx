@@ -15,6 +15,8 @@ import Clicker from "./Clicker";
 
 import Counter from "./Counter";
 
+import Toggler from "./Toggler";
+
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
   { id: 129331, name: "Lone Mountain Cabin", rating: 4.8, price: 250 },
@@ -27,7 +29,8 @@ const properties = [
 function App() {
   return (
     <>
-      {<Counter />}
+      <Toggler />
+      {/* {<Counter />} */}
       {/* <Clicker message="Please Stop Clicking Me!" buttonText="Do not click" /> */}
       {/* <PropertyList properties={properties} /> */}
     </>
