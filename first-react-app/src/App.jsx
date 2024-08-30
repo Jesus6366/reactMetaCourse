@@ -9,12 +9,21 @@ import DoubleDice from "./DoubleDice";
 
 import ColorList from "./ColorList";
 import Slots from "./Slots";
+import ShoppingList from "./ShoppingList";
+
+const data = [
+  { item: "eggs", quantity: 12, completed: false },
+  { item: "milk", quantity: 1, completed: true },
+  { item: "chicken breasts", quantity: 4, completed: false },
+  { item: "carrots", quantity: 6, completed: true },
+];
 
 function App() {
   return (
     <>
-      <Slots val1="🍒" val2="🍒" val3="🍒" />
-      <Slots val1="🍒" val2="🍌" val3="🍒" />
+      <ShoppingList items={data} />
+      {/* <Slots val1="🍒" val2="🍒" val3="🍒" />
+      <Slots val1="🍒" val2="🍌" val3="🍒" /> */}
       {/* <DoubleDice />
       <DoubleDice />
       <DoubleDice />
