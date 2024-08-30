@@ -11,6 +11,7 @@ import ColorList from "./ColorList";
 import Slots from "./Slots";
 import ShoppingList from "./ShoppingList";
 import PropertyList from "./PropertyList";
+import Clicker from "./Clicker";
 
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
@@ -24,7 +25,8 @@ const properties = [
 function App() {
   return (
     <>
-      <PropertyList properties={properties} />
+      <Clicker />
+      {/* <PropertyList properties={properties} /> */}
     </>
   );
 }
