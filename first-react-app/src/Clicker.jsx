@@ -1,14 +1,17 @@
 import React from "react";
 
-// on click event
-const handleClick = function () {
-  console.log("CLICKED BUTTON");
-};
-const Clicker = () => {
+// const handleOver = function () {
+//   console.log("Hovered");
+// };
+const Clicker = ({ message, buttonText }) => {
+  // on click event
+  const handleClick = function () {
+    alert(message);
+  };
   return (
     <div>
-      <p>Click The Button</p>
-      <button onOver={handleClick}>Click</button>
+      {/* <p onMouseOver={handleOver}>Click The Button</p> */}
+      <button onClick={handleClick}>{buttonText}</button>
     </div>
   );
 };

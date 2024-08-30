@@ -25,7 +25,7 @@ const properties = [
 function App() {
   return (
     <>
-      <Clicker />
+      <Clicker message="Please Stop Clicking Me!" buttonText="Do not click" />
       {/* <PropertyList properties={properties} /> */}
     </>
   );
